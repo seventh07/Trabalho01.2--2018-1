@@ -10,4 +10,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-}
+
+    public void calcularSalario() {
+        Float valorPeso = Float.parseFloat(etHorasTrab.getText().toString());
+        Float valorAltura = Float.parseFloat(etFaltas.getText().toString());
+        Float valorAltura = Float.parseFloat(etFilhos.getText().toString());
+        Float valorAltura = Float.parseFloat(spCargo.getText().toString());
+        Float imc;
+
+
+    }
